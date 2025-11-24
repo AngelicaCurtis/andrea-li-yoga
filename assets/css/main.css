@@ -45,9 +45,9 @@
 }
 
 .dark-background {
-  --background-color: #01776C;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --background-color: #f8f0e9;
+  --default-color: #150202;
+  --heading-color: #150202;
   --surface-color: #395c6a;
   --contrast-color: #ffffff;
 }
@@ -56,6 +56,13 @@
   --background-color: #67b0d1;
   --default-color: #ffffff;
   --heading-color: #ffffff;
+  --surface-color: #8ec4dd;
+}
+
+.accent-background-about {
+  --background-color: #67b0d1;
+  --default-color: #2f4d5a;
+  --heading-color: #2f4d5a;
   --surface-color: #8ec4dd;
 }
 
@@ -775,7 +782,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  background: color-mix(in srgb, var(--background-color), transparent 90%);
   position: absolute;
   inset: 0;
   z-index: 2;
